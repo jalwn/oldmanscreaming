@@ -1,7 +1,7 @@
 Ahmed Jalwan Waheed
 Male', Maldives
 GitHub:    https://github.com/jalwn
-LinkedIn:  https://www.linkedin.com/in/your-linkedin
+LinkedIn:  https://www.linkedin.com/in/jalwan/
 --------------------------------------------------------------------------------
 Summary:
 - Fullstack software engineer with 4+ years of experience building
