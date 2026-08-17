@@ -1,0 +1,95 @@
+Ahmed Jalwan Waheed
+Male', Maldives
+GitHub:    https://github.com/jalwn
+LinkedIn:  https://www.linkedin.com/in/your-linkedin
+--------------------------------------------------------------------------------
+Summary:
+- Fullstack software engineer with 4+ years of experience building
+  high-performance systems across frontend and backend.
+- Skilled in React, TypeScript, Python, Rust, and C#, with strong DevOps
+  capabilities including Kubernetes orchestration, CI/CD pipelines, and
+  infrastructure monitoring.
+- Experienced in architecting microservices, event-driven systems, and
+  distributed middleware at scale, with a focus on delivering reliable,
+  well-structured solutions.
+--------------------------------------------------------------------------------
+Technical skills: (A-Z)
+AI, ASP.NET Core, AWS, Bash, C, C#, CI/CD, Caddy, Docker, DuckDB,
+Elasticsearch, ELK, Elysia, Git, GitHub Actions, GitLab CI/CD, Go, Grafana,
+Hono, Jaeger, Java, JavaScript, Kafka, Kibana, Kubernetes, llama.cpp,
+Logstash, Loki, MediatR, Mimir, MSSQL, MySQL, Node.js, Nuxt, Playwright,
+PostgreSQL, Prometheus, Python, RabbitMQ, React, Redis, Rust, shadcn,
+SQLite, Tailwind CSS, TanStack Query, TanStack Router, Tempo, TypeScript,
+vLLM, Vue, Wireshark
+--------------------------------------------------------------------------------
+Professional experience:
+Jun.2025 - Present
+Software Engineer - Dhiraagu Plc, Male', Maldives
+- Built an integration middleware layer between core APIs (CBS billing system,
+  CRM, inventory management), exposing RESTful APIs for service inventory,
+  balance adjustments, and lifecycle management. Implemented an API aggregation
+  layer and a Redis-style cache layer that reduced call latency by ~40%.
+- Built an AI-powered document generation service with a React TypeScript
+  frontend (TanStack Router/Query, Jotai, Tailwind CSS, shadcn), integrated
+  into HR systems and backed by Redis for conversation history management.
+- Architected microservices and event-driven systems processing 6+ million
+  daily messages via RabbitMQ, ensuring high availability and fault tolerance.
+- Built a comprehensive observability platform with the LGTM stack: Loki for
+  centralized log aggregation, Tempo for distributed tracing, Mimir for
+  high-volume metrics, and Grafana for unified visualization — enabling
+  end-to-end request tracing and rapid debugging across multi-service systems.
+- Built the reverse-proxy layer for multiple production applications using
+  Caddy, automating the full TLS certificate lifecycle via Cloudflare DNS and
+  handling service routing and SSL termination.
+- Served as primary technical liaison for third-party vendor API gateway
+  integration with core systems.
+- Built a Kafka event consumer for the Huawei CBS billing platform, processing
+  10+ real-time event types (subscriber activations, recharges, billing
+  transactions, offering lifecycle changes, threshold notifications) and
+  routing events to downstream systems for automated processing and reporting.
+- Deployed and optimized LLMs using llama.cpp with model quantization for
+  efficient low-resource deployment.
+
+Jan.2022 - Jun.2025
+Software Developer - Dhiraagu Plc, Male', Maldives
+- Optimized API performance by 30x through asynchronous processing with
+  RabbitMQ and the Hangfire job scheduler.
+- Containerized applications using Docker with orchestration via Compose,
+  Swarm, and Kubernetes pod management across production environments.
+- Developed the ESME API for USSD gateway integration and built a testing
+  simulator for multiple service numbers using Python and NiceGUI.
+- Deployed and scaled Mayan EDMS and KYC application to handle 10,000+
+  documents per day.
+- Resolved PostgreSQL database bloat, reclaiming 40GB through index
+  optimization and automated vacuuming procedures.
+- Maintained a Java-based message consumer bridging JMS queues to RabbitMQ for
+  reliable inter-service communication.
+- Developed a real-time network data scraping solution using Playwright,
+  exposing internal APIs for system integration.
+- Authored technical documentation for integration procedures and development
+  best practices.
+
+Apr.2021 - Sep.2021
+Computer Programmer - Villa College, Male', Maldives
+- Full stack development with Vue, Laravel, and MySQL.
+--------------------------------------------------------------------------------
+Educations:
+BS (Hons) in Computer Science
+INTI International University, affiliated with Coventry University, Malaysia
+Jan.2018 - Aug.2021
+--------------------------------------------------------------------------------
+Honor & Awards:
+Innovation Award - March 2023
+- Awarded for the innovative project "Digital Customer Journey" by Dhiraagu Plc.
+  View Certificate: https://drive.google.com/file/d/14kw-5sVzUejy0wNDesKNc9Uipdq2PuZ2/view
+PostgreSQL Database Administration - December 2022
+- Completed a course on PostgreSQL Administration by Koenig Solutions.
+  View Certificate: https://www.credly.com/badges/ac1b1a3b-853a-4252-b24a-217e0a704ff5/linked_in_profile
+Applied Data Science Module: Unit 1 - December 2019
+- Scientific Computing and Python for Data Science by WorldQuant University.
+  View Certificate: https://wqu.thedataincubator.com/certificate/5206601052979200
+--------------------------------------------------------------------------------
+Languages:
+Dhivehi (Native), English (Fluent), Mandarin (Beginner)
+
+References available upon request.

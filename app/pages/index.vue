@@ -1,6 +1,6 @@
 <template>
 
-    <section class="min-h-screen flex flex-col items-center justify-center">
+    <section class="min-h-screen flex flex-col items-center  pt-[24vh]">
         <UContainer class="flex flex-col items-center gap-2">
             <UAvatar
                 src="/oldmanscreaming.png"
@@ -10,37 +10,64 @@
             />
 
             <h1 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text">Software Engineer</h1>
+
+            <RotatingText
+                class="font-mono text-lg font-bold text-primary mt-2 uppercase tracking-wider sticker-lift"
+                :phrases="[
+                    'I engineer the distributed systems behind the interface',
+                    'Nice to meet you, I am Jalwan',
+                    'I build resilient backends and polished interfaces',
+                    'I ship and scale what I build',
+                ]"
+            />
+
+            <div class="flex items-center gap-3 mt-4">
+                <UButton
+                    icon="i-lucide-github"
+                    color="neutral"
+                    variant="soft"
+                    to="https://github.com/jalwn"
+                    external
+                    target="_blank"
+                    aria-label="GitHub"
+                />
+                <UButton
+                    class="border border-[#2DD4BF] text-white hover:bg-[#14B8A6] transition-colors duration-200"
+                    icon="i-lucide-file-user"
+                    label="Resume"
+                    color="secondary"
+                    to="/resume.txt"
+                    target="_blank"
+                />
+            </div>
         </UContainer>
     </section>
 
     <section class="py-16 px-6 md:py-24 lg:py-32 flex justify-center">
-            <p class="text-slate-200 text-sm leading-relaxed max-w-xl text-center">
+            <p class="text-slate-200 text-lg leading-relaxed max-w-xl text-center">
                 I'm a software engineer specializing in
-                <span class="text-[#f59e0b]">high-performance systems</span> and fullstack applications.
+                <span class="text-primary">high-performance systems</span> and fullstack applications.
                 Currently at Dhiraagu, I focus on core platform engineering. I architect
-                <span class="text-[#f59e0b]">distributed middleware</span>,
+                <span class="text-primary">distributed middleware</span>,
                 integration services, and
-                <span class="text-[#f59e0b]">message-driven architectures</span>
+                <span class="text-primary">message-driven architectures</span>
                 that process millions of daily transactions.
                 Lately, my work centers on bridging complex backend platforms with modern web interfaces.
                 I specialize in building
-                <span class="text-[#f59e0b]">API aggregation layers</span>,
+                <span class="text-primary">API aggregation layers</span>,
                 instrumenting end-to-end
-                <span class="text-[#f59e0b]">distributed observability</span>
+                <span class="text-primary">distributed observability</span>
                 across multi-service ecosystems, and optimizing system latency through
-                <span class="text-[#f59e0b]">strategic caching</span>.
+                <span class="text-primary">strategic caching</span>.
                 I also explore
-                <span class="text-[#f59e0b]">applied AI</span>,
+                <span class="text-primary">applied AI</span>,
                 optimizing local LLMs and building AI-driven internal tools.
                 From diagnosing cross-system integration bottlenecks to fine-tuning database performance,
                 I enjoy turning distributed system complexities into reliable, scalable software.
                 In my spare time, I'm usually experimenting with new
-                <span class="text-[#f59e0b]">systems languages</span>.
+                <span class="text-primary">systems languages</span>.
             </p>
     </section>
-    
-
-
 </template>
 
 
@@ -51,5 +78,17 @@
          0.75px -0.75px 0 #fff,
         -0.75px  0.75px 0 #fff,
          0.75px  0.75px 0 #fff;
+}
+
+.sticker-text-thin {
+    text-shadow:
+        -0.2px -0.2px 0 #fff,
+         0.2px -0.2px 0 #fff,
+        -0.2px  0.2px 0 #fff,
+         0.2px  0.2px 0 #fff;
+}
+
+.sticker-lift {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
 </style>
