@@ -60,25 +60,32 @@
             <h2 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text-thin mb-6">About me</h2>
 
             <p class="text-slate-200 text-lg leading-relaxed">
-                I'm a software engineer specializing in high-performance systems and fullstack
+                I'm a software engineer specializing in
+                <span class="text-primary">high-performance systems</span> and fullstack
                 applications. Currently at Dhiraagu, I focus on core platform engineering,
-                architecting distributed middleware, integration services, and message-driven
-                architectures that process millions of daily transactions.
+                architecting <span class="text-primary">distributed middleware</span>,
+                integration services, and
+                <span class="text-primary">message-driven architectures</span>
+                that process millions of daily transactions.
             </p>
 
             <p class="text-slate-200 text-lg leading-relaxed mt-4">
                 My work centers on bridging complex backend platforms with modern web interfaces.
-                I build API aggregation layers, instrument end-to-end distributed observability
-                across multi-service ecosystems, and optimize system latency through strategic
-                caching.
+                I build <span class="text-primary">API aggregation layers</span>,
+                instrument end-to-end
+                <span class="text-primary">distributed observability</span>
+                across multi-service ecosystems, and optimize system latency through
+                <span class="text-primary">strategic caching</span>,
+                asynchronous processing, and targeted performance tuning.
             </p>
 
             <p class="text-slate-200 text-lg leading-relaxed mt-4">
-                I also explore applied AI, optimizing local LLMs and building AI-driven internal
-                tools. Whether diagnosing cross-system integration bottlenecks or fine-tuning
-                database performance, I enjoy turning distributed system complexity into reliable,
-                scalable software. In my spare time, I'm usually experimenting with new systems
-                languages.
+                I also explore <span class="text-primary">applied AI</span>, optimizing local
+                LLMs and building AI-driven internal tools. Whether diagnosing cross-system
+                integration bottlenecks or fine-tuning database performance, I enjoy turning
+                distributed system complexity into reliable, scalable software. In my spare time,
+                I'm usually experimenting with new
+                <span class="text-primary">systems languages</span>.
             </p>
         </div>
     </section>
