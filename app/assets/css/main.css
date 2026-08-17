@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root, .dark {
+
+    /* 475569 */
+    /* D1DDD6 */
+    /* 64748B */
+  --ui-bg: #64748B;
+}
+
+@theme {
+  /* 1. Heading / Display font (Bungee) */
+  --font-display: "Bungee", sans-serif;
+
+  /* 2. Main body font (Nuxt UI relies on --font-sans globally) */
+  --font-sans: "Inter", sans-serif;
+
+  /* 3. Monospace font for code blocks */
+  --font-mono: "Fira Code", monospace;
+}
