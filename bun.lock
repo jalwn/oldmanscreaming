@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "party-game",
+      "name": "oldmanscreaming",
       "dependencies": {
         "@nuxt/fonts": "0.14.0",
         "@nuxt/ui": "^4.10.0",

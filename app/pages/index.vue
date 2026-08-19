@@ -12,7 +12,7 @@
             <h1 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text">Software Engineer</h1>
 
             <RotatingText
-                class="font-mono text-lg font-bold text-primary mt-2 uppercase tracking-wider sticker-lift"
+                class="font-mono text-lg font-bold text-primary mt-4 uppercase tracking-wider sticker-lift min-h-[3.5rem] [overflow-anchor:none]"
                 :phrases="[
                     'I engineer the distributed systems behind the interface',
                     'Nice to meet you, I am Jalwan',
@@ -21,7 +21,7 @@
                 ]"
             />
 
-            <div class="flex items-center gap-3 mt-4">
+            <div class="flex items-center gap-3">
                 <UButton
                     icon="i-lucide-github"
                     color="neutral"
@@ -57,13 +57,15 @@
 
     <section id="about" class="min-h-screen flex flex-col justify-center items-center px-6 py-16">
         <div class="max-w-2xl w-full">
-            <h2 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text-thin mb-6">About me</h2>
+            <h2 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text mb-6">About me</h2>
 
             <p class="text-slate-200 text-lg leading-relaxed">
                 I'm a software engineer specializing in
                 <span class="text-primary">high-performance systems</span> and fullstack
-                applications. Currently at Dhiraagu, I focus on core platform engineering,
-                architecting <span class="text-primary">distributed middleware</span>,
+                applications. Currently at
+                <a href="https://www.dhiraagu.com.mv/" target="_blank" rel="noopener"
+                   class="text-[#2DD4BF] hover:underline">Dhiraagu</a>, I focus on core platform
+                engineering, architecting <span class="text-primary">distributed middleware</span>,
                 integration services, and
                 <span class="text-primary">message-driven architectures</span>
                 that process millions of daily transactions.
