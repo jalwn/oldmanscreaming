@@ -21,3 +21,69 @@
   /* 3. Monospace font for code blocks */
   --font-mono: "Fira Code", monospace;
 }
+
+/* Shared sticker / text-shadow utilities */
+.sticker-text {
+    text-shadow:
+        -0.75px -0.75px 0 #fff,
+         0.75px -0.75px 0 #fff,
+        -0.75px  0.75px 0 #fff,
+         0.75px  0.75px 0 #fff;
+}
+
+.sticker-text-thin {
+    text-shadow:
+        -0.5px -0.5px 0 #fff,
+         0.5px -0.5px 0 #fff,
+        -0.5px  0.5px 0 #fff,
+         0.5px  0.5px 0 #fff;
+}
+
+.sticker-lift {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.cursor-blink {
+    display: inline-block;
+    width: 0.55em;
+    height: 1.05em;
+    margin-left: 3px;
+    background: currentColor;
+    vertical-align: text-bottom;
+    animation: cursorBlink 1s step-end infinite;
+}
+
+@keyframes cursorBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Nav wordmark: blinking block cursor that covers the last letter */
+.logo-block {
+    display: inline-block;
+    border-radius: 2px;
+    animation: logoBlock 1s step-end infinite;
+}
+
+@keyframes logoBlock {
+    0%, 100% { background: currentColor; }
+    50% { background: transparent; }
+}
+
+.logo-char {
+    animation: logoChar 1s step-end infinite;
+}
+
+@keyframes logoChar {
+    0%, 100% { color: var(--ui-bg); }   /* inverted (covered) */
+    50% { color: inherit; }              /* normal amber */
+}

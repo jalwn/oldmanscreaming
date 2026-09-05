@@ -36,7 +36,7 @@ onMounted(() => setTimeout(tick, props.startDelay))
 </script>
 
 <template>
-    <div class="font-mono">
+    <div class="font-mono text-center">
         <template v-if="displayText.length > 0">
             <span>{{ displayText.slice(0, -1) }}</span><span class="cursor"><span class="cursor-char">{{ displayText.slice(-1) }}</span></span>
         </template>
