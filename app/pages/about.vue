@@ -1,7 +1,7 @@
 <template>
     <section class="min-h-[80vh] flex flex-col justify-center items-center px-6 py-16">
         <div class="max-w-2xl w-full">
-            <h2 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text mb-6">About me</h2>
+            <h2 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text mb-6">Hi, I am Jalwan</h2>
 
             <p class="text-slate-200 text-lg leading-relaxed">
                 I'm a software engineer specializing in
