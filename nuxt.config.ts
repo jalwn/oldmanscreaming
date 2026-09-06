@@ -7,8 +7,8 @@ export default defineNuxtConfig({
   icon: {
     clientBundle: { scan: true }
   },
-  experimental: {
-    inlineSSRStyles: true,
+  features: {
+    inlineStyles: true,
   },
   app: {
     head: {
