@@ -22,10 +22,10 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Jalwan Waheed' },
         { property: 'og:description', content: 'Software engineer in the Maldives building distributed systems, middleware, and fullstack applications.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://oldmanscreaming.com/oldmanscreaming.png' },
+        { property: 'og:image', content: 'https://oldmanscreaming.com/og-image.png' },
         { property: 'og:image:type', content: 'image/png' },
-        { property: 'og:image:width', content: '451' },
-        { property: 'og:image:height', content: '553' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
