@@ -1,10 +1,9 @@
 <template>
-    <section class="min-h-screen flex flex-col items-center pt-[24vh]">
+    <section class="min-h-screen flex flex-col items-center pt-[14vh]">
         <UContainer class="flex flex-col items-center gap-2">
             <UAvatar
-                src="/oldmanscreaming.png"
+                src="/oldmanscreaming.webp"
                 alt="Illustration of Jalwan by his sister"
-                loading="lazy"
                 class="rounded-none bg-transparent size-32"
                 :ui="{ image: 'object-contain' }"
             />
@@ -12,7 +11,7 @@
             <h1 class="font-display text-2xl font-medium text-[#bc471b] tracking-wide sticker-text">Software Engineer</h1>
 
             <RotatingText
-                class="font-mono text-lg font-bold text-primary my-4 uppercase tracking-wider sticker-lift min-h-[3.5rem] [overflow-anchor:none]"
+                class="font-mono text-lg font-bold text-primary my-4 uppercase tracking-wider sticker-lift min-h-[5.25rem] md:min-h-[3.5rem] [overflow-anchor:none]"
                 :phrases="[
                     'I engineer event-driven architectures and high-throughput pipelines',
                     'Nice to meet you, I am Jalwan',
