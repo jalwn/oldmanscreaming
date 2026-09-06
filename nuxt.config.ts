@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       title: 'Jalwan Waheed',
       meta: [
         { name: 'description', content: 'Software engineer specializing in distributed systems, middleware, and fullstack applications.' },
-        { name: 'theme-color', content: '#64748B' },
+        { name: 'theme-color', content: '#475569' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

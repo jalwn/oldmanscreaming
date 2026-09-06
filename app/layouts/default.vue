@@ -26,7 +26,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onClickOutside))
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <header ref="headerRef" class="sticky top-0 z-50 border-b border-white/10 bg-[#64748B]/85 backdrop-blur">
+        <header ref="headerRef" class="sticky top-0 z-50 border-b border-white/10 bg-[#475569]/85 backdrop-blur">
             <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
                 <NuxtLink to="/" class="font-display text-xl text-primary sticker-lift whitespace-nowrap">Jalwa<span class="logo-block"><span class="logo-char">n</span></span></NuxtLink>
 
@@ -57,7 +57,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onClickOutside))
             <Transition name="fade">
                 <div
                     v-if="mobileOpen"
-                    class="sm:hidden absolute top-full inset-x-0 bg-[#64748B]/95 backdrop-blur border-b border-white/10 shadow-lg"
+                    class="sm:hidden absolute top-full inset-x-0 bg-[#475569]/95 backdrop-blur border-b border-white/10 shadow-lg"
                 >
                     <nav class="max-w-4xl mx-auto px-6 py-2 flex flex-col">
                         <NuxtLink

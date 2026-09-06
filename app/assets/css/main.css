@@ -4,11 +4,7 @@
 :root, .dark {
     --ui-primary: #f59e0b;
     --ui-secondary: #0F766E;
-
-    /* 475569 */
-    /* D1DDD6 */
-    /* 64748B */
-  --ui-bg: #64748B;
+    --ui-bg: #475569;
 }
 
 @theme {
