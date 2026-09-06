@@ -18,3 +18,12 @@
         </div>
     </section>
 </template>
+
+<script setup>
+useHead({
+    meta: [{
+        name: 'description',
+        content: 'Get in touch with Jalwan Waheed, software engineer in the Maldives.',
+    }],
+})
+</script>

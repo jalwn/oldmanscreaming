@@ -3,7 +3,7 @@
         <UContainer class="flex flex-col items-center gap-2">
             <UAvatar
                 src="/oldmanscreaming.webp"
-                alt="Illustration of Jalwan by his sister"
+                alt="An illustration of Jalwan, a software engineer based in the Maldives"
                 fetchpriority="high"
                 class="rounded-none bg-transparent size-32"
                 :ui="{ image: 'object-contain' }"
@@ -43,3 +43,12 @@
         </UContainer>
     </section>
 </template>
+
+<script setup>
+useHead({
+    meta: [{
+        name: 'description',
+        content: 'Software engineer in the Maldives building distributed systems, middleware, and fullstack applications.',
+    }],
+})
+</script>

@@ -3,6 +3,22 @@ const route = useRoute()
 const mobileOpen = ref(false)
 const headerRef = ref(null)
 
+useHead({
+    script: [{
+        type: 'application/ld+json',
+        children: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Ahmed Jalwan Waheed',
+            url: 'https://oldmanscreaming.com/',
+            image: 'https://oldmanscreaming.com/oldmanscreaming.webp',
+            jobTitle: 'Software Engineer',
+            address: { '@type': 'PostalAddress', addressCountry: 'MV', addressLocality: 'Male' },
+            sameAs: ['https://github.com/jalwn', 'https://www.linkedin.com/in/jalwan/'],
+        }),
+    }],
+})
+
 const navLinks = [
     { label: 'Home', to: '/' },
     { label: 'About', to: '/about' },

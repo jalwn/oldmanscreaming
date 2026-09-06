@@ -36,3 +36,12 @@
         </div>
     </section>
 </template>
+
+<script setup>
+useHead({
+    meta: [{
+        name: 'description',
+        content: 'Jalwan Waheed, software engineer in the Maldives, specializes in distributed systems, middleware, and observability.',
+    }],
+})
+</script>

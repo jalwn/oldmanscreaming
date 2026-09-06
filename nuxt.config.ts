@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   icon: {
     clientBundle: { scan: true }
   },
+  experimental: {
+    inlineSSRStyles: true,
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -14,8 +17,13 @@ export default defineNuxtConfig({
       },
       title: 'Jalwan Waheed',
       meta: [
-        { name: 'description', content: 'Software engineer specializing in distributed systems, middleware, and fullstack applications.' },
+        { name: 'description', content: 'Software engineer in the Maldives building distributed systems, middleware, and fullstack applications.' },
         { name: 'theme-color', content: '#475569' },
+        { property: 'og:title', content: 'Jalwan Waheed' },
+        { property: 'og:description', content: 'Software engineer in the Maldives building distributed systems, middleware, and fullstack applications.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'https://oldmanscreaming.com/oldmanscreaming.webp' },
+        { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

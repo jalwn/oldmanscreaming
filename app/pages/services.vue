@@ -16,6 +16,13 @@ const services = [
         description: 'Take an existing application that is slowing down and make it fast and resilient, from database tuning to async processing to caching.',
     },
 ]
+
+useHead({
+    meta: [{
+        name: 'description',
+        content: 'Code review, scaling existing apps, and self-hostable internal tools for businesses, by a software engineer in the Maldives.',
+    }],
+})
 </script>
 
 <template>
