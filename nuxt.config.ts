@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       title: 'Jalwan Waheed',
       meta: [
         { name: 'description', content: 'Software engineer specializing in distributed systems, middleware, and fullstack applications.' },

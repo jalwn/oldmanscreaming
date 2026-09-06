@@ -3,6 +3,7 @@
         <UContainer class="flex flex-col items-center gap-2">
             <UAvatar
                 src="/oldmanscreaming.png"
+                alt="Illustration of Jalwan by his sister"
                 loading="lazy"
                 class="rounded-none bg-transparent size-32"
                 :ui="{ image: 'object-contain' }"
