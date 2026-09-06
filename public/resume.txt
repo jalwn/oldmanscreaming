@@ -6,7 +6,7 @@ LinkedIn:  https://www.linkedin.com/in/jalwan/
 Summary:
 - Fullstack software engineer with 4+ years of experience building
   high-performance systems across frontend and backend.
-- Skilled in React, TypeScript, Python, Rust, and C#, with strong DevOps
+- Skilled in React, TypeScript, Python, Go, Rust, and C#, with strong DevOps
   capabilities including Kubernetes orchestration, CI/CD pipelines, and
   infrastructure monitoring.
 - Experienced in architecting microservices, event-driven systems, and
@@ -90,6 +90,6 @@ Applied Data Science Module: Unit 1 - December 2019
   View Certificate: https://wqu.thedataincubator.com/certificate/5206601052979200
 --------------------------------------------------------------------------------
 Languages:
-Dhivehi (Native), English (Fluent), Mandarin (Beginner)
+Dhivehi (Native), English (Fluent), Japanese (Beginner), Mandarin (Beginner)
 
 References available upon request.
