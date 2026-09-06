@@ -4,6 +4,7 @@
             <UAvatar
                 src="/oldmanscreaming.webp"
                 alt="Illustration of Jalwan by his sister"
+                fetchpriority="high"
                 class="rounded-none bg-transparent size-32"
                 :ui="{ image: 'object-contain' }"
             />
