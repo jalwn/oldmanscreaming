@@ -3,7 +3,7 @@ const services = [
     {
         icon: 'i-lucide-server',
         title: 'Self-hostable internal tools',
-        description: 'Affordable, self-hosted apps for offices and small businesses that replace recurring software subscriptions. Data stays on your infrastructure.',
+        description: 'Affordable, self-hosted apps for offices and small businesses that replace recurring software subscriptions.',
     },
     {
         icon: 'i-lucide-shield-check',
