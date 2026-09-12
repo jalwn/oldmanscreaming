@@ -49,6 +49,11 @@ Software Engineer - Dhiraagu Plc, Male', Maldives
   routing events to downstream systems for automated processing and reporting.
 - Deployed and optimized LLMs using llama.cpp with model quantization for
   efficient low-resource deployment.
+- Replaced the third-party USSD gateway ESME with an in-house solution,
+  eliminating a ~$100K USD/year subscription cost and cutting add-on
+  configuration and launch from several weeks to hours.
+- Built a Nuxt-based admin portal and multi-instance simulator
+  (per-instance menus) for managing and testing USSD add-ons.
 
 Jan.2022 - Jun.2025
 Software Developer - Dhiraagu Plc, Male', Maldives
@@ -56,8 +61,6 @@ Software Developer - Dhiraagu Plc, Male', Maldives
   RabbitMQ and the Hangfire job scheduler.
 - Containerized applications using Docker with orchestration via Compose,
   Swarm, and Kubernetes pod management across production environments.
-- Developed the ESME API for USSD gateway integration and built a testing
-  simulator for multiple service numbers using Python and NiceGUI.
 - Deployed and scaled Mayan EDMS and KYC application to handle 10,000+
   documents per day.
 - Resolved PostgreSQL database bloat, reclaiming 40GB through index
@@ -79,6 +82,10 @@ INTI International University, affiliated with Coventry University, Malaysia
 Jan.2018 - Aug.2021
 --------------------------------------------------------------------------------
 Honor & Awards:
+Dhiraagu Champion - May 2026
+- Recognized for an in-house USSD add-on solution that cut launch time from
+  weeks to hours and avoided significant external cost.
+  View Certificate: https://drive.google.com/file/d/178zNKwCk_vAbHZIL-HHMZ0eW484NgSSv/view
 Innovation Award - March 2023
 - Awarded for the innovative project "Digital Customer Journey" by Dhiraagu Plc.
   View Certificate: https://drive.google.com/file/d/14kw-5sVzUejy0wNDesKNc9Uipdq2PuZ2/view
